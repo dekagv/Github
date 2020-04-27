@@ -1,0 +1,20 @@
+git init   // Incializa el proyecto de git
+git status // para ver el estatus de los archivos
+git add  //para agregar los archivos seguidos al repositorio        ----muy importatnte
+
+
+git add . //Agrega todos los archivos del repositorio
+git commit  -m "He agregado un ignoere" //Crea nuetro primer punto de control de nuestro codigo    --- muy importante
+salir con esc  :wq para  salir y ver los archivos afectados
+
+git log  //  muestra la informacion del repositorio   --- muy importante
+
+git checkoutt --  nombre del archivo  ///descarta los cambios realizados al archivo
+
+git diff nombre del archivo // para ver la diferencias del archivo de una version a otra
+
+.gitignore // patra agragar archivos que no se actualicen en el repositorio. crear archivo con terminacion en la raiz del direcctorio .gitignore
+
+git branch (nombre version) crea una version alternativa del repositorio
+
+git checkout "nombre de la version"  //cambia de version de repositorio en donde se trabajara
