@@ -18,3 +18,5 @@ git diff nombre del archivo // para ver la diferencias del archivo de una versio
 git branch (nombre version) crea una version alternativa del repositorio
 
 git checkout "nombre de la version"  //cambia de version de repositorio en donde se trabajara
+
+git push -u origin master  actualiza repositorio en github
